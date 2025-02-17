@@ -1,25 +1,45 @@
-export const quiz_fatoumata_kebe = {
+export const quiz_espace = {
     questions: [
       {
-        text: "Fatoumata Kébé est reconnue pour ses recherches dans quel domaine scientifique ?",
+        text: "Combien de planètes y a t'il dans le système solaire ? ",
         options: [
-          "L'astronomie, spécialisée dans les débris spatiaux.",
-          "La création de lunettes de réalité augmentée pour observer les étoiles.",
-          "L'étude de la météo sur Mars et ses implications pour l'agriculture spatiale.",
-          "La cartographie des astéroïdes qui pourraient potentiellement entrer en collision avec la Terre."
+          "1. 6",
+          "2. 9",
+          "3. 12",
+          "4. 8"
         ],
-        correct_answer: "L'astronomie, spécialisée dans les débris spatiaux."
+        correct_answer: "4. 8 : On compte aujourd’hui 8 planètes dans le Système solaire : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune."
       },
       {
-        text: "En plus de son travail d'astronome, dans quelle autre activité Fatoumata Kébé est-elle impliquée ?",
+        text: "Quel est le satellite le plus célèbre de Jupiter ?",
         options: [
-          "Elle enseigne l'astrophotographie aux astronautes de la Station spatiale internationale.",
-          "Elle milite pour l'éducation des jeunes filles en astronomie.",
-          "Elle entraîne des robots pour des compétitions de quiz interstellaires.",
-          "Elle développe des applications pour cultiver des potagers en apesanteur."
+          "1. Europe",
+          "2. Afrique",
+          "3. Océanie",
+          "4. Asie"
         ],
-        correct_answer: "Elle milite pour l'éducation des jeunes filles en astronomie."
+        correct_answer: "Europe"
       },
+      {
+        text: "Quelle est la durée moyenne d'une rotation complète de la Terre sur son axe ?",
+        options: [
+          "1. 365 jours",
+          "2. 24 heures",
+          "3. 1 heure",
+          "4. Le temps que le mari décide de vider le lave-vaisselle"
+        ],
+        correct_answer: "24 heures"
+      },
+      {
+        text: "Dans quelle galaxie se situe le système solaire ?",
+        options: [
+          "1. Galaxie d'Andromède",
+          "2. alaxie Samsun",
+          "3. Galaxie de la roue de Chariot",
+          "4. La Voie Lactée"
+        ],
+        correct_answer: "La Voie Lactée"
+      }
       // Autres questions...
     ]
   };
